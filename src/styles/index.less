@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+
+
 .part1 {
     height: 460px;
 
@@ -94,6 +96,7 @@
             background: url(https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png) no-repeat -123px 0;
             z-index: 3;
             outline: none;
+
             &:hover {
                 background: url(https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png) no-repeat -41px 0;
             }
@@ -220,6 +223,11 @@
     background: #f5f5f5;
     box-sizing: content-box;
 
+    li:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    }
+
     // 小米闪购里的第一个盒子
     .lightning {
         box-sizing: content-box;
@@ -335,23 +343,24 @@
 
     // 小米闪购里的滑动列表
     .lightning {
+
         box-sizing: content-box;
 
         .lightsalelist {
             .swiper-container {
                 height: 339px;
                 width: 978px;
-             
+
                 >div {
                     margin-right: 14px;
                     width: 978px;
                     text-align: center;
-                   
+
                     height: 339px;
                     position: relative;
 
-                   
-                  
+
+
                     a {
 
                         margin-left: 14px;
@@ -362,10 +371,12 @@
                         height: 339px;
                         width: 230px;
                         background: #fafafa;
+
                         // 这个地方需要修改实现全局js时把230改成234px
-                        &:first-child{
+                        &:first-child {
                             margin-left: 0;
                         }
+
                         .swiper-img {
                             width: 160px;
                             margin: 0 auto 22px;

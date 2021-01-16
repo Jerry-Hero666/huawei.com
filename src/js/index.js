@@ -68,3 +68,31 @@ let mSwiper = new Swiper('.lightsalelist .swiper-container', {
      
      
  });
+
+ // 倒计时
+ $(function(){
+   let future= new Date(2021, 2, 11, 0, 0, 0);
+    setInterval(function() {
+  let now = new Date(); // 获得当前时间
+
+  let calculate = future - now; // 毫秒值
+  let s = calculate / 1000; // 转换成秒
+  let day = parseInt(s / 86400); // 换算成天
+  let hour = parseInt(s % 86400 / 3600); // 计算小时
+  let min = parseInt(s % 3600 / 60); // 计算分钟
+  let sec = parseInt(s % 60); // 计算秒
+      if(min<10){
+        min='0'+min
+      }
+      if(sec<10){
+        sec='0'+sec
+      }
+      if(day<10){
+        day='0'+day
+      }
+  $('.hour-js').html(hour);
+  $('.min-js').html(min);
+  $('.sec-js').html(sec);
+  $('.light-text').html('距离结束还有'+day+'天');
+}, 1000);
+ })
