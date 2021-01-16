@@ -1,0 +1,221 @@
+@charset "utf-8";
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button,
+img {
+  padding: 0;
+  margin: 0;
+}
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+em,
+i {
+  font-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.wrapper {
+  width: 1226px;
+  margin: 0 auto;
+}
+body {
+  min-width: 1226px;
+}
+.wrapper-regist {
+  width: 854px;
+  margin: 0 auto;
+  background: white;
+}
+.w-wrapper {
+  width: 332px;
+  margin: 0 auto;
+}
+* {
+  box-sizing: content-box;
+}
+.main {
+  background: #f9f9f9;
+}
+.main .logo img {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 40px;
+}
+.main .tit-h4 h4 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  padding-bottom: 38px;
+}
+.main .submitbox > form p:nth-child(1) {
+  color: #333;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.main .submitbox > form p:nth-child(2) {
+  border: #e8e8e8 solid 1px;
+  height: 38px;
+  position: relative;
+}
+.main .submitbox > form p:nth-child(2) span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 2px;
+  display: inline-block;
+  width: 289px;
+  height: 40px;
+  line-height: 40px;
+  text-indent: 14px;
+  border-right: 1px solid #e8e8e8;
+}
+.main .submitbox > form p:nth-child(2) i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  color: #e8e8e8;
+  line-height: 40px;
+  position: absolute;
+  right: 10px;
+  top: -1px;
+}
+.main .submitbox > form p:nth-child(3) {
+  margin-bottom: 15px;
+  color: #666;
+  margin-top: 5px;
+}
+.main .submitbox > form p:nth-child(4) {
+  padding-bottom: 5px;
+}
+.main .submitbox > form p:nth-child(5) {
+  position: relative;
+}
+.main .submitbox > form p:nth-child(5) > .lan {
+  width: 69px;
+  height: 42px;
+  border: solid 1px #e8e8e8;
+  display: inline-block;
+  line-height: 42px;
+  text-align: center;
+  color: #9d9d9d;
+}
+.main .submitbox > form p:nth-child(5) input {
+  width: 260px;
+  height: 42px;
+  border: 1px solid #e8e8e8;
+  display: inline-block;
+  border-left: 0;
+  outline: 0;
+  color: black;
+  text-indent: 10px;
+}
+.main .submitbox > form p:nth-child(5) .fillphone {
+  position: absolute;
+  top: 12px;
+  right: -20px;
+}
+.main .submitbox > form .passwordtext {
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.main .submitbox > form .passwordin {
+  position: relative;
+}
+.main .submitbox > form .passwordin input {
+  display: inline-block;
+  width: 333px;
+  height: 42px;
+  outline: none;
+  border: 1px solid #e8e8e8;
+  text-indent: 10px;
+}
+.main .submitbox > form .passwordin span {
+  position: absolute;
+  top: 12px;
+  right: -20px;
+}
+.main .submitbox > form .submitb {
+  padding-top: 15px;
+}
+.main .submitbox > form .submitb input {
+  width: 328px;
+  height: 40px;
+  background: #ff6700;
+  text-align: center;
+  line-height: 40px;
+  outline: 0;
+  border: 0;
+  color: white;
+}
+.main .submitbox > form .config {
+  padding-top: 84px;
+  color: #9d9d9d;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: -40px;
+}
+.main .submitbox > form .config a {
+  color: #333;
+}
+.login-footer .content-text {
+  padding-top: 100px;
+}
+.login-footer .content-text p:nth-child(1) {
+  text-align: center;
+}
+.login-footer .content-text p:nth-child(1) a {
+  color: #757575;
+  font-size: 14px;
+}
+.login-footer .content-text p:nth-child(1) a:hover {
+  color: #333;
+}
+.login-footer .content-text p:nth-child(1) span {
+  padding: 0 10px;
+}
+.login-footer .content-text p:nth-child(2) {
+  padding: 10px;
+  color: #757575;
+  text-align: center;
+}
+.login-footer .content-text p:nth-child(2) a {
+  color: #757575;
+}

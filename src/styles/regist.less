@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+@import './reset.less';
+
+.wrapper-regist {
+    width: 854px;
+    margin: 0 auto;
+    background: white;
+}
+
+.w-wrapper {
+    width: 332px;
+    margin: 0 auto;
+
+}
+
+* {
+    box-sizing: content-box
+}
+
+.main {
+    background: #f9f9f9;
+
+    .logo {
+        img {
+            width: 55px;
+            height: 55px;
+            margin: 0 auto;
+            display: block;
+            padding-bottom: 40px;
+        }
+    }
+
+    .tit-h4 {
+        h4 {
+            font-size: 30px;
+            color: #333;
+            text-align: center;
+            padding-bottom: 38px;
+        }
+    }
+
+    .submitbox {
+        >form {
+            p:nth-child(1) {
+                color: #333;
+                font-size: 14px;
+                padding-bottom: 5px;
+            }
+
+            p:nth-child(2) {
+                border: #e8e8e8 solid 1px;
+                height: 38px;
+                position: relative;
+
+                span {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    margin-bottom: 2px;
+                    display: inline-block;
+                    width: 289px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-indent: 14px;
+                    border-right: 1px solid #e8e8e8;
+                }
+
+                i {
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    color: #e8e8e8;
+                    line-height: 40px;
+                    position: absolute;
+                    right: 10px;
+                    top: -1px;
+
+
+                }
+            }
+
+            p:nth-child(3) {
+                margin-bottom: 15px;
+                color: #666;
+                margin-top: 5px;
+            }
+
+            p:nth-child(4) {
+                padding-bottom: 5px;
+            }
+
+            p:nth-child(5) {
+                position: relative;
+                >.lan {
+                    width: 69px;
+                    height: 42px;
+                    border: solid 1px #e8e8e8;
+                    display: inline-block;
+                    line-height: 42px;
+                    text-align: center;
+                    color: #9d9d9d;
+
+                }
+
+                input {
+                    width: 260px;
+                    height: 42px;
+                    border: 1px solid #e8e8e8;
+                    display: inline-block;
+                    border-left: 0;
+                    outline: 0;
+                    color: black;
+                    text-indent: 10px;
+                }
+                .fillphone{
+                   
+                        position: absolute;
+                        top: 12px;
+                        right: -20px;
+                    
+                }
+            }
+
+            .passwordtext {
+                padding-bottom: 5px;
+                padding-top: 10px;
+            }
+
+            .passwordin {
+                position: relative;
+                input {
+                    display: inline-block;
+                    width: 333px;
+                    height: 42px;
+                    outline: none;
+                    border: 1px solid #e8e8e8;
+                    text-indent: 10px;
+                }
+                span{
+                    position: absolute;
+                    top: 12px;
+                    right: -20px;
+                }
+            }
+
+            .submitb {
+                padding-top: 15px;
+
+                input {
+                    width: 328px;
+                    height: 40px;
+                    background: #ff6700;
+                    text-align: center;
+                    line-height: 40px;
+                    outline: 0;
+                    border: 0;
+
+                    color: white;
+                }
+            }
+
+            .config {
+                padding-top: 84px;
+                color: #9d9d9d;
+                text-align: center;
+                cursor: pointer;
+                margin-bottom: -40px;
+
+                a {
+                    color: #333;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// footer
+.login-footer {
+    .content-text {
+        padding-top: 100px;
+
+        p:nth-child(1) {
+            text-align: center;
+
+            a {
+                color: #757575;
+                font-size: 14px;
+
+                &:hover {
+                    color: #333;
+                }
+            }
+
+            span {
+                padding: 0 10px;
+            }
+        }
+
+        p:nth-child(2) {
+            padding: 10px;
+            color: #757575;
+            text-align: center;
+
+            a {
+                color: #757575;
+            }
+        }
+    }
+
+}

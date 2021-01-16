@@ -1,0 +1,1523 @@
+@charset "utf-8";
+
+.part1 {
+    height: 460px;
+
+    >.wrapper {
+        position: relative;
+        height: 460px;
+
+        >div {
+            float: left;
+        }
+    }
+
+
+    .tab>ul {
+        background: #444f57;
+        padding: 15px 0;
+        position: absolute;
+        z-index: 99;
+
+        li {
+            width: 235px;
+            height: 43px;
+            background: #444f57;
+            padding-left: 30px;
+            line-height: 43px;
+            position: relative;
+
+            &:hover {
+                background: #ff6700;
+            }
+
+            span {
+                color: white;
+                position: absolute;
+                right: 24px;
+                top: 12px;
+            }
+
+            a {
+                color: white;
+            }
+        }
+    }
+
+    .banner {
+        position: relative;
+
+        .swiper-container {
+            a {
+                display: block;
+                width: 1226px;
+                height: 460px;
+
+                img {
+                    width: 1226px;
+                    height: 460px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1
+                }
+
+            }
+
+
+        }
+
+        .swiper-button-prev {
+            position: absolute;
+            width: 41px;
+            height: 69px;
+            top: 193px;
+            outline: none;
+            background: url(https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png) no-repeat -82px 0;
+            z-index: 3;
+            left: 233px;
+            color: transparent;
+
+            &:hover {
+                background: url(https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png) no-repeat 0 0;
+            }
+
+        }
+
+        .swiper-button-next {
+            position: absolute;
+            width: 41px;
+            height: 69px;
+            top: 193px;
+            left: 1184px;
+            color: transparent;
+            background: url(https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png) no-repeat -123px 0;
+            z-index: 3;
+            outline: none;
+            &:hover {
+                background: url(https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png) no-repeat -41px 0;
+            }
+        }
+
+
+    }
+
+
+
+    // .swiper-list {
+    //     position: absolute;
+    //     z-index: 100;
+    //     right: 30px;
+    //     top: 420px;
+
+    //     a {
+
+    //         display: inline-block;
+    //         width: 10px;
+    //         height: 10px;
+    //         border-radius: 50%;
+    //         margin: 0 4px;
+    //         border: 2px solid #58585f;
+
+    //         background: rgba(0, 0, 0, .4);
+
+
+    //     }
+    // }
+
+}
+
+//第二部分 四个盒子 
+.part1-sub {
+    margin-top: 14px;
+    margin-bottom: 28px;
+
+    .wrapper>div {
+        float: left;
+        margin-right: 14px;
+
+        &:nth-child(4) {
+            margin-right: 0;
+        }
+
+        >img {
+            width: 316px;
+            height: 170px;
+        }
+    }
+
+    .six-box>ul {
+        background: #5f5750;
+        width: 236px;
+        height: 170px;
+        padding: 3px;
+
+
+        li {
+            float: left;
+            text-align: center;
+            width: 76px;
+            height: 82px;
+            padding-top: 20px;
+            position: relative;
+            cursor: pointer;
+
+
+            &:after {
+                top: 6px;
+                left: 0;
+                width: 1px;
+                height: 70px;
+                position: absolute;
+                content: "";
+                background: #665e57;
+            }
+
+            &:before {
+                top: -1px;
+                left: 4px;
+                width: 64px;
+                height: 1px;
+                position: absolute;
+                content: "";
+                background: #665e57;
+            }
+
+            >span {
+                >img {
+                    width: 24px;
+                    height: 24px;
+                    color: #fff;
+                    opacity: .7;
+                    transition: opacity .2s;
+
+
+                }
+
+
+            }
+
+            >a {
+                display: block;
+                color: #fff;
+                opacity: .7;
+                transition: opacity .2s;
+                font-size: 12px;
+                margin-top: 8px;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+
+        }
+    }
+
+}
+
+// main 小米闪购
+.main {
+    background: #f5f5f5;
+    box-sizing: content-box;
+
+    // 小米闪购里的第一个盒子
+    .lightning {
+        box-sizing: content-box;
+
+        .lightning-title {
+            h2 {
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+            }
+
+            .btn1 {
+                margin-top: 25px;
+
+                span:nth-child(1) {
+                    display: inline-block;
+                    width: 24px;
+                    height: 16px;
+                    padding: 3px 5px;
+                    margin-left: -1px;
+                    border: 1px solid #e0e0e0;
+                    font-size: 16px;
+                    line-height: 16px;
+                    transition: color .5s;
+                    color: #b0b0b0;
+                    text-align: center;
+                    cursor: pointer;
+                    box-sizing: content-box;
+                }
+
+                span:nth-child(2) {
+                    display: inline-block;
+                    width: 24px;
+                    height: 16px;
+                    padding: 3px 5px;
+                    margin-left: -1px;
+                    border: 1px solid #e0e0e0;
+                    font-size: 16px;
+                    line-height: 16px;
+                    transition: color .5s;
+                    color: #b0b0b0;
+                    text-align: center;
+                    cursor: pointer;
+                    box-sizing: content-box;
+                    margin-left: -4px;
+                }
+            }
+        }
+
+        .light-box {
+            height: 339px;
+            padding-top: 39px;
+            border-top-width: 1px;
+            border-top-style: solid;
+            background: #f1eded;
+            text-align: center;
+            width: 234px;
+            border-top-color: #e53935;
+            margin-right: 14px;
+
+            >.round {
+                font-size: 21px;
+                color: #ef3a3b;
+                padding-top: 15px;
+                text-align: center;
+            }
+
+            >.light-img>img {
+                margin: 25px auto;
+                border: 0;
+            }
+
+            >.light-text {
+                color: rgba(0, 0, 0, .54);
+                font-size: 15px;
+            }
+
+            >.countdown {
+                width: 168px;
+                margin: 28px auto 0;
+
+                >span {
+                    width: 46px;
+                    height: 46px;
+                    background: #605751;
+                    color: #fff;
+                    font-size: 24px;
+                    line-height: 46px;
+                    float: left;
+                    text-align: center;
+                }
+
+                >i {
+                    width: 15px;
+                    float: left;
+                    height: 46px;
+                    line-height: 46px;
+                    color: #605751;
+                    font-size: 28px;
+                    font-style: normal;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    // 小米闪购里的滑动列表
+    .lightning {
+        box-sizing: content-box;
+
+        .lightsalelist {
+            .swiper-container {
+                height: 339px;
+                width: 978px;
+             
+                >div {
+                    margin-right: 14px;
+                    width: 978px;
+                    text-align: center;
+                   
+                    height: 339px;
+                    position: relative;
+
+                   
+                  
+                    a {
+
+                        margin-left: 14px;
+                        border-top-width: 1px;
+                        border-top-style: solid;
+                        border-top-color: #ffac13;
+                        display: block;
+                        height: 339px;
+                        width: 230px;
+                        background: #fafafa;
+                        // 这个地方需要修改实现全局js时把230改成234px
+                        &:first-child{
+                            margin-left: 0;
+                        }
+                        .swiper-img {
+                            width: 160px;
+                            margin: 0 auto 22px;
+                            margin-top: 40px;
+
+                            img {
+                                width: 160px;
+                                height: 160px;
+                                border: 0;
+                            }
+                        }
+
+                        .title {
+                            margin: 0 20px 3px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            color: #212121;
+
+
+                        }
+
+                        .desc {
+                            height: 18px;
+                            margin: 0 20px 12px;
+                            font-size: 12px;
+                            text-overflow: ellipsis;
+                            color: #b0b0b0;
+                            overflow: hidden;
+                            white-space: nowrap;
+                        }
+
+                        .price {
+                            margin: 0;
+                            color: #ff6709;
+
+                            span {
+                                color: #ff6709;
+                            }
+
+                            del {
+                                color: #b0b0b0;
+                                text-decoration: line-through;
+                            }
+                        }
+                    }
+
+
+
+                }
+            }
+        }
+    }
+
+    // 小米闪购下面的一个小盒子
+    .lightning-bottom {
+        height: 120px;
+        margin: 22px 0;
+
+        img {
+            width: 1226px;
+            height: 120px;
+            border: 0;
+        }
+    }
+
+    // 手机盒子
+    .phone {
+
+
+        // 手机标题
+        .phone-title {
+            height: 58px;
+
+            h2 {
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+            }
+
+            .more {
+                a {
+                    font-size: 16px;
+                    line-height: 58px;
+                    color: #424242;
+                    transition: all .4s;
+
+                    &:hover {
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+
+        // 手机页左边的盒子
+        .phone-leftbox {
+            width: 234px;
+
+            a {
+                display: block;
+                width: 234px;
+                height: 100%;
+
+                img {
+                    height: 616px;
+                    width: 234px;
+                    border: 0;
+                }
+            }
+        }
+
+        // 手机列表
+        .phone-list {
+            width: 992px;
+
+            ul {
+                li {
+                    width: 234px;
+                    height: 300px;
+                    float: left;
+
+                    background: #fff;
+                    margin-left: 14px;
+                    margin-bottom: 14px;
+
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    img {
+                        width: 160px;
+                        height: 160px;
+                        border: 0;
+                        margin: 20px auto 18px;
+                        display: block;
+                    }
+
+                    .title {
+                        margin: 0 10px 2px;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #333;
+                    }
+
+                    .desc {
+                        margin: 0 10px 10px;
+                        height: 18px;
+                        font-size: 12px;
+                        color: #b0b0b0;
+                        text-align: center;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+
+                    .price {
+                        margin: 0 10px 14px;
+                        text-align: center;
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+    }
+
+    // 家电
+    .appliance {
+
+        // 家电标题
+        .appliance-title {
+            height: 58px;
+
+            h2 {
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+            }
+
+            ul {
+                li {
+                    font-size: 16px;
+                    line-height: 58px;
+                    color: #424242;
+                    transition: color .4s;
+                    float: left;
+                    cursor: pointer;
+
+                    &:nth-child(1) {
+                        margin-right: 32px;
+                    }
+
+                    &:hover {
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+
+        // 家电列表
+        .appliance-list {
+            ul {
+                li {
+                    width: 234px;
+                    height: 300px;
+                    float: left;
+
+                    background: #fff;
+                    margin-left: 14px;
+                    margin-bottom: 14px;
+
+                    &:nth-child(1) {
+                        margin-left: 0;
+
+                        a {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            margin-top: -20px;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                border: 0;
+
+                            }
+                        }
+                    }
+
+                    img {
+                        width: 160px;
+                        height: 160px;
+                        border: 0;
+                        margin: 20px auto 18px;
+                        display: block;
+                    }
+
+                    .title {
+                        margin: 0 10px 2px;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #333;
+                    }
+
+                    .desc {
+                        margin: 0 10px 10px;
+                        height: 18px;
+                        font-size: 12px;
+                        color: #b0b0b0;
+                        text-align: center;
+                    }
+
+                    .price {
+                        margin: 0 10px 14px;
+                        text-align: center;
+
+                        span {
+                            color: #ff6700;
+                        }
+
+                        del {
+                            margin-left: .5em;
+                            color: #b0b0b0;
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 智能
+    .intelligence {
+        box-sizing: content-box;
+
+        // 智能标题
+        .intelligence-title {
+            height: 58px;
+
+            h2 {
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+            }
+
+            ul {
+                li {
+                    font-size: 16px;
+                    line-height: 58px;
+                    color: #424242;
+                    transition: color .4s;
+                    float: left;
+                    cursor: pointer;
+
+                    &:nth-child(1) {
+                        margin-right: 32px;
+                    }
+
+                    &:nth-child(2) {
+                        margin-right: 32px;
+                    }
+
+                    &:hover {
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+
+        // 智能列表
+        .intelligence-list {
+            ul {
+                >li {
+                    width: 234px;
+                    height: 300px;
+                    float: left;
+
+                    background: #fff;
+                    margin-left: 14px;
+                    margin-bottom: 14px;
+
+                    &:nth-child(1) {
+                        margin-left: 0;
+
+                        a {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            margin-top: -20px;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                border: 0;
+
+                            }
+                        }
+                    }
+
+                    img {
+                        width: 160px;
+                        height: 160px;
+                        border: 0;
+                        margin: 20px auto 18px;
+                        display: block;
+                    }
+
+                    .title {
+                        margin: 0 10px 2px;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #333;
+                    }
+
+                    .desc {
+                        margin: 0 10px 10px;
+                        height: 18px;
+                        font-size: 12px;
+                        color: #b0b0b0;
+                        text-align: center;
+                    }
+
+                    .price {
+                        margin: 0 10px 14px;
+                        text-align: center;
+
+                        span {
+                            color: #ff6700;
+                        }
+
+                        del {
+                            margin-left: .5em;
+                            color: #b0b0b0;
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    >li:last-child {
+                        width: 234px;
+                        height: 143px;
+
+                        .content {
+                            margin: 50px 30px;
+                            margin-right: 35px;
+
+                            .more {
+                                p {
+                                    font-size: 18px;
+                                    color: #333;
+                                }
+
+                                small {
+                                    color: #757575;
+                                }
+                            }
+
+                            .more-img {
+                                font-size: 48px;
+                                line-height: 48px;
+                                color: #ff6700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 搭配
+    .match {
+        box-sizing: content-box;
+
+        // 搭配标题
+        .match-title {
+            height: 58px;
+
+            h2 {
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+            }
+
+            ul {
+                li {
+                    font-size: 16px;
+                    line-height: 58px;
+                    color: #424242;
+                    transition: color .4s;
+                    float: left;
+                    cursor: pointer;
+
+                    &:nth-child(1) {
+                        margin-right: 32px;
+                    }
+
+
+
+                    &:hover {
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+
+        // 搭配列表
+        .match-list {
+            ul {
+                >li {
+                    width: 234px;
+                    height: 300px;
+                    float: left;
+
+                    background: #fff;
+                    margin-left: 14px;
+                    margin-bottom: 14px;
+
+                    &:nth-child(1) {
+                        margin-left: 0;
+
+                        a {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            margin-top: -20px;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                border: 0;
+
+                            }
+                        }
+                    }
+
+                    img {
+                        width: 160px;
+                        height: 160px;
+                        border: 0;
+                        margin: 20px auto 18px;
+                        display: block;
+                    }
+
+                    .title {
+                        margin: 0 10px 2px;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #333;
+                    }
+
+                    .desc {
+                        margin: 0 10px 10px;
+                        height: 18px;
+                        font-size: 12px;
+                        color: #b0b0b0;
+                        text-align: center;
+                    }
+
+                    .price {
+                        margin: 0 10px 14px;
+                        text-align: center;
+
+                        span {
+                            color: #ff6700;
+                        }
+
+                        del {
+                            margin-left: .5em;
+                            color: #b0b0b0;
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    >li:last-child {
+                        width: 234px;
+                        height: 143px;
+
+                        .content {
+                            margin: 50px 30px;
+                            margin-right: 35px;
+
+                            .more {
+                                p {
+                                    font-size: 18px;
+                                    color: #333;
+                                }
+
+                                small {
+                                    color: #757575;
+                                }
+                            }
+
+                            .more-img {
+                                font-size: 48px;
+                                line-height: 48px;
+                                color: #ff6700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 配件
+    .mountings {
+        box-sizing: content-box;
+
+        // 配件标题
+        .mountings-title {
+            height: 58px;
+
+            h2 {
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+            }
+
+            ul {
+                li {
+                    font-size: 16px;
+                    line-height: 58px;
+                    color: #424242;
+                    transition: color .4s;
+                    float: left;
+                    cursor: pointer;
+
+                    &:nth-child(1) {
+                        margin-right: 32px;
+                    }
+
+
+
+                    &:hover {
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+
+        // 配件列表
+        .mountings-list {
+            ul {
+                >li {
+                    width: 234px;
+                    height: 300px;
+                    float: left;
+
+                    background: #fff;
+                    margin-left: 14px;
+                    margin-bottom: 14px;
+
+                    &:nth-child(1) {
+                        margin-left: 0;
+
+                        a {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            margin-top: -20px;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                border: 0;
+
+                            }
+                        }
+                    }
+
+                    img {
+                        width: 160px;
+                        height: 160px;
+                        border: 0;
+                        margin: 20px auto 18px;
+                        display: block;
+                    }
+
+                    .title {
+                        margin: 0 10px 2px;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #333;
+                    }
+
+                    .desc {
+                        margin: 0 10px 10px;
+                        height: 18px;
+                        font-size: 12px;
+                        color: #b0b0b0;
+                        text-align: center;
+                    }
+
+                    .price {
+                        margin: 0 10px 14px;
+                        text-align: center;
+
+                        span {
+                            color: #ff6700;
+                        }
+
+                        del {
+                            margin-left: .5em;
+                            color: #b0b0b0;
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    >li:last-child {
+                        width: 234px;
+                        height: 143px;
+
+                        .content {
+                            margin: 50px 30px;
+                            margin-right: 35px;
+
+                            .more {
+                                p {
+                                    font-size: 18px;
+                                    color: #333;
+                                }
+
+                                small {
+                                    color: #757575;
+                                }
+                            }
+
+                            .more-img {
+                                font-size: 48px;
+                                line-height: 48px;
+                                color: #ff6700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 周边
+    .circum {
+        box-sizing: content-box;
+
+        // 周边标题
+        .circum-title {
+            height: 58px;
+
+            h2 {
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+            }
+
+            ul {
+                li {
+                    font-size: 16px;
+                    line-height: 58px;
+                    color: #424242;
+                    transition: color .4s;
+                    float: left;
+                    cursor: pointer;
+
+                    &:nth-child(1) {
+                        margin-right: 32px;
+                    }
+
+
+
+                    &:hover {
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+
+        // 周边列表
+        .circum-list {
+            ul {
+                >li {
+                    width: 234px;
+                    height: 300px;
+                    float: left;
+
+                    background: #fff;
+                    margin-left: 14px;
+                    margin-bottom: 14px;
+
+                    &:nth-child(1) {
+                        margin-left: 0;
+
+                        a {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            margin-top: -20px;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                border: 0;
+
+                            }
+                        }
+                    }
+
+                    img {
+                        width: 160px;
+                        height: 160px;
+                        border: 0;
+                        margin: 20px auto 18px;
+                        display: block;
+                    }
+
+                    .title {
+                        margin: 0 10px 2px;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #333;
+                    }
+
+                    .desc {
+                        margin: 0 10px 10px;
+                        height: 18px;
+                        font-size: 12px;
+                        color: #b0b0b0;
+                        text-align: center;
+                    }
+
+                    .price {
+                        margin: 0 10px 14px;
+                        text-align: center;
+
+                        span {
+                            color: #ff6700;
+                        }
+
+                        del {
+                            margin-left: .5em;
+                            color: #b0b0b0;
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    >li:last-child {
+                        width: 234px;
+                        height: 143px;
+
+                        .content {
+                            margin: 50px 30px;
+                            margin-right: 35px;
+
+                            .more {
+                                p {
+                                    font-size: 18px;
+                                    color: #333;
+                                }
+
+                                small {
+                                    color: #757575;
+                                }
+                            }
+
+                            .more-img {
+                                font-size: 48px;
+                                line-height: 48px;
+                                color: #ff6700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 视频
+    .videos {
+        box-sizing: content-box;
+
+        // 视频标题
+        .videos-title {
+            height: 58px;
+
+            h2 {
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+            }
+
+            .more {
+                a {
+                    font-size: 16px;
+                    line-height: 58px;
+                    color: #424242;
+                    transition: all .4s;
+
+                    &:hover {
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+
+        // 视频集
+        .videos-list {
+            >ul {
+                margin-bottom: 26px;
+
+                li {
+                    margin-right: 14px;
+                    float: left;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    .videos-img {
+                        position: relative;
+
+                        &:hover>.play {
+                            background: #ff6700;
+                            border: #ff6700 2px solid;
+                        }
+
+                        img {
+                            width: 296px;
+                            height: 180px;
+                            border: 0;
+                        }
+
+                        span {
+                            display: block;
+                            position: absolute;
+                            left: 20px;
+                            bottom: 10px;
+                            width: 32px;
+                            height: 20px;
+                            border: 2px solid #fff;
+                            border-radius: 12px;
+                            color: white;
+                            text-align: center;
+                            line-height: 20px;
+                            font-size: 12px;
+                            box-sizing: content-box;
+                        }
+                    }
+
+                    .videos-text {
+                        background: white;
+                        width: 296px;
+
+                        h3 {
+                            padding: 33px 0 62px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            text-align: center;
+                            color: #333;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+// footer-top
+.footer-top {
+    .footer-service {
+
+
+        ul {
+            padding: 27px 0;
+            border-bottom: 1px solid #e0e0e0;
+
+            li {
+                box-sizing: content-box;
+                font-size: 16px;
+                float: left;
+                width: 19.8%;
+                height: 25px;
+                border-left: 1px solid #e0e0e0;
+                line-height: 25px;
+                text-align: center;
+
+
+                &:hover a {
+                    color: #ff6700;
+                }
+
+                &:first-child {
+                    border-left: 0;
+                }
+
+                a {
+                    color: #616161;
+                    transition: color .2s;
+
+                    i {
+                        margin-right: 6px;
+                        font-size: 24px;
+                        line-height: 24px;
+                        vertical-align: -4px;
+                    }
+                }
+            }
+        }
+    }
+
+    // 下面的盒子
+    .biglink {
+        box-sizing: content-box;
+        padding: 40px 0;
+
+        .left-box {
+
+
+            ul {
+                width: 160px;
+                float: left;
+
+                >li {
+                    margin: -1px 0 26px;
+                    font-size: 14px;
+                    line-height: 1.25;
+                    color: #424242;
+                }
+
+                >a>li {
+                    margin: 10px 0 0;
+                    font-size: 12px;
+                    color: #757575;
+
+                    &:hover {
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+
+        .right-box {
+            width: 251px;
+            border-left: 1px solid #e0e0e0;
+            text-align: center;
+
+            p:nth-child(1) {
+                font-size: 22px;
+                line-height: 1;
+                color: #ff6700;
+
+            }
+
+            p:nth-child(2) {
+                margin: 0 0 5px 0;
+                font-size: 12px;
+            }
+
+            >a {
+
+                background: #fff;
+                color: #ff6700;
+                display: block;
+                width: 118px;
+                height: 28px;
+                font-size: 12px;
+                line-height: 21px;
+                border: 1px solid #ff6700;
+                text-align: center;
+                line-height: 28px;
+                margin: 0 auto;
+
+                &:hover {
+                    background: #ff6700;
+                    color: white;
+                }
+
+                &:hover i {
+                    color: white;
+                }
+
+                i {
+                    color: #ff6700;
+                    font-size: 12px;
+                    line-height: 28px;
+                }
+            }
+
+            .follow {
+                font-size: 12px;
+                margin-top: 5px;
+                text-align: center;
+                color: #616161;
+                box-sizing: border-box;
+
+                span {
+                    vertical-align: middle;
+                }
+
+                i {
+                    margin-left: 6px;
+                    margin-top: -3px;
+                    font-size: 22px;
+                    vertical-align: middle;
+
+                    &:hover {
+                        color: #ff6700;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+// footer-bottom
+.footer-bottom {
+    background: #fafafa;
+    color: #b0b0b0;
+    padding: 30px 67px 30px 0;
+    font-size: 12px;
+
+
+
+
+    .footer-logo {
+        background: url(https://s02.mifile.cn/assets/static/image/logo-footer.png) no-repeat 50% 50%;
+        width: 57px;
+        height: 57px;
+        margin-right: 10px;
+    }
+
+    .footer-text {
+        p {
+            line-height: 18px;
+
+            >a {
+                color: #757575;
+            }
+
+            a:hover {
+                color: #ff6700;
+            }
+
+            &:nth-child(3) {
+                line-height: 18px;
+
+                >a {
+                    color: #b0b0b0;
+
+                    &:hover {
+                        color: #ff6700;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .footer-link {
+        height: 28px;
+        margin: 4px 0 15px;
+        padding-left: 67px;
+
+        a:last-child>img {
+            height: 40px;
+            vertical-align: baseline;
+        }
+
+        img {
+            width: auto;
+            height: 28px;
+            vertical-align: baseline;
+
+        }
+
+
+    }
+
+    .footer-p {
+        background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+        margin: 30px auto 0;
+        width: 100%;
+        height: 19px;
+    }
+}
